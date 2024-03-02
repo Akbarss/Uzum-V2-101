@@ -1,0 +1,332 @@
+<body>
+	<!doctype html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="favorites.html">
+		<link rel="stylesheet" href="./main.css">
+		<title>Uzum Market - интернет-магазин</title>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							clifford: '#da373d',
+						}
+					}
+				}
+			}
+		</script>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+
+	<body>
+		<nav class="h-9  bg-slate-100 w-full pt-1">
+			<div class="max-w-screen-xl flex-wrap items-center justify-between mx-auto">
+				<div class="flex">
+					<a class="flex bg-primary-800 text-center" href=""><svg xmlns="http://www.w3.org/2000/svg"
+							width="24" height="24" viewBox="0 0 21 21">
+							<g fill="none" fill-rule="evenodd" stroke="black" stroke-linecap="round"
+								stroke-linejoin="round" transform="translate(4 2)">
+								<path
+									d="m6.5 16.54l.631-.711c.716-.82 1.36-1.598 1.933-2.338l.473-.624c1.975-2.661 2.963-4.773 2.963-6.334C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033c0 1.561.988 3.673 2.963 6.334l.473.624a54.84 54.84 0 0 0 2.564 3.05" />
+								<circle cx="6.5" cy="6.5" r="2.5" />
+							</g>
+						</svg>
+						Shahar: Samarqand</a>
+					<a class="pl-6" href="https://uzum.uz/uz/about/delivery-points">Topshirish punktlari</a>
+					<h1 class="pl-32 text-slate-400">Buyurtmangizni 1 kunda bepul yetkazib beramiz!</h1>
+					<a class="pl-32 text-slate-600" href="https://uzum.uz/uz/faq">Savol-Javoblar</a>
+					<a class="pl-6  text-slate-600" href="">Buyurtmalarim</a>
+					<a class="pl-6" href="">O'zbekcha</a>
+				</div>
+			</div>
+		</nav>
+		<header class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+			<div class="w-full h-16 bg-white max-w-screen-xl flex flex-wrap items-center mx-auto">
+				<img data-v-48f9edf8=""
+					src="data:image/svg+xml,%3csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cg clip-path='url(%23clip0_2057_199813)'%3e %3cmask id='mask0_2057_199813' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='36' height='36'%3e %3cpath d='M18 0C33 0 36 3 36 18C36 33 33 36 18 36C3 36 0 33 0 18C0 3 3 0 18 0Z' fill='white'/%3e %3c/mask%3e %3cg mask='url(%23mask0_2057_199813)'%3e %3crect width='36' height='36' fill='%23FFFF00'/%3e %3cpath d='M1.7424 8.42296C1.3915 9.57087 1.63459 10.9497 2.12075 13.7073L3.09512 19.2342C3.4556 21.2789 3.68243 22.5655 4.07004 23.4849L0 24.2027V36H4.5L29.8228 31.532C33.1937 30.9375 35.4445 27.7225 34.8501 24.351C34.5822 22.831 33.7816 21.5386 32.6742 20.6322C32.9649 20.2115 33.1912 19.7461 33.3425 19.251C33.6934 18.1031 33.4503 16.7242 32.9642 13.9666L31.9898 8.43977C31.5036 5.68212 31.2605 4.30329 30.5383 3.34464C29.9029 2.50138 29.017 1.88094 28.0074 1.57223C26.8597 1.22128 25.4811 1.46441 22.7239 1.95065L8.6088 4.43993C5.8516 4.92618 4.47301 5.16931 3.51451 5.8917C2.67139 6.52714 2.05105 7.41323 1.7424 8.42296Z' fill='%237000FF'/%3e %3cpath d='M17.9998 6.96094C17.5841 6.96094 17.1755 6.97855 16.7703 7.01378L16.7633 12.7266H19.2293V7.01378C18.8241 6.96094 18.4155 6.96094 17.9998 6.96094Z' fill='white'/%3e %3cpath d='M22.8722 19.3328C24.1644 18.0406 24.8904 16.2879 24.8904 14.4604V10.3352C23.9968 10.0367 23.0833 9.80122 22.1567 9.63061V14.4357C22.1567 17.8916 20.6912 19.6988 17.9998 19.6988C15.3084 19.6988 13.8464 17.8916 13.8464 14.4357V9.63061C12.9187 9.80166 12.0041 10.0371 11.1092 10.3352V14.4604C11.1092 16.2879 11.8351 18.0406 13.1274 19.3328C14.4196 20.625 16.1723 21.375 17.9998 21.375C19.8273 21.375 21.58 20.625 22.8722 19.3328Z' fill='white'/%3e %3cpath d='M20.4184 28.8032H21.5025V26.9742L23.1982 28.8032H24.477L22.7257 26.8911L24.338 25.0621H23.0592L21.5025 26.808V23.8983H20.4184V28.8032Z' fill='white'/%3e %3cpath d='M7.32527 25.6719C7.60325 25.2562 8.10362 24.9791 8.79858 24.9791C9.96612 24.9791 10.5221 25.7273 10.5221 26.6418V28.831H9.43795V26.8081C9.43795 26.3647 9.18776 25.9767 8.65959 25.9767C8.13142 25.9767 7.88124 26.337 7.88124 26.7804V28.831H6.7971V26.7804C6.7971 26.337 6.51911 25.9767 5.99094 25.9767C5.46277 25.9767 5.24039 26.3647 5.24039 26.8081V28.831H4.15625V26.6418C4.15625 25.7273 4.74002 24.9791 5.90755 24.9791C6.49132 24.9791 7.07508 25.2562 7.32527 25.6719Z' fill='white'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.4981 27.5009V25.0622H14.4139V25.6442C14.1915 25.2839 13.7746 24.9791 13.0518 24.9791C11.8009 24.9791 11.1615 25.949 11.1615 26.9189C11.1337 27.9165 11.8565 28.8864 12.9962 28.8864C13.6078 28.8864 14.1637 28.6093 14.4139 28.1382C14.5251 28.4431 14.8031 28.7756 15.3591 28.7756H15.9706V27.8611H15.8038C15.5814 27.9165 15.4981 27.8334 15.4981 27.5009ZM13.2742 27.972C12.6626 27.972 12.19 27.5563 12.19 26.9466C12.19 26.3647 12.6626 25.949 13.2742 25.949C13.9135 25.949 14.3583 26.3647 14.3583 26.9466C14.3861 27.5286 13.9135 27.972 13.2742 27.972Z' fill='white'/%3e %3cpath d='M16.8881 28.8033H17.9722V27.1406C17.9722 26.5032 18.4448 26.0876 19.0286 26.0876H19.7513V24.9791H19.2232C18.556 24.9791 18.0834 25.5333 17.9722 25.8659V25.0622H16.8881V28.8033Z' fill='white'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M25.6721 27.2237C25.6721 27.6394 25.8945 28.0551 26.5895 28.0551C27.2288 28.0551 27.3122 27.6671 27.3122 27.6671H28.5076C28.5076 27.6671 28.3964 28.8864 26.5895 28.8864C25.3386 28.8864 24.5324 28.1936 24.5324 26.9189C24.5324 25.6719 25.3108 24.9791 26.5617 24.9791C27.7848 24.9791 28.591 25.6719 28.591 26.9189C28.591 27.0575 28.5632 27.196 28.5632 27.196H25.6721V27.2237ZM25.6999 26.5587H27.4512C27.4512 26.2538 27.2844 25.8105 26.5895 25.8105C25.8945 25.8382 25.6999 26.2538 25.6999 26.5587Z' fill='white'/%3e %3cpath d='M31.1762 27.8611C30.8148 27.8611 30.6758 27.6948 30.6758 27.1683V25.8659H31.8434V24.9791H30.6758V24.2309H30.0921L29.0357 25.2285V25.8382H29.5917V27.3069C29.5917 28.3599 30.1199 28.8033 31.1762 28.8033H31.8434V27.8611H31.1762Z' fill='white'/%3e %3c/g%3e %3c/g%3e %3cdefs%3e %3cclipPath id='clip0_2057_199813'%3e %3crect width='36' height='36' fill='white'/%3e %3c/clipPath%3e %3c/defs%3e %3c/svg%3e"
+					class="noselect icon" style="width: 36px; height: 36px;">
+				<h1 id="header-h1" class="text-[#7000FF] ml-4">uzum market</h1>
+				<button class="w-32 h-10 bg-violet-100 ml-6 rounded text-violet-600">
+					<span class="icon-[ant-design--shopping-outlined]"></span> Katalog
+				</button>
+				<div id="search" class="mt-3 ml-3">
+					<div class="search rounded relative mb-4 flex w-full flex-wrap items-stretch">
+						<input id="search-input" type="search"
+							class="relative m-0 -mr-0.5 block min-w-0 flex-auto rounded-l, bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out"
+							placeholder="Mahsulotlar va turkumlar izlash" aria-label="Search"
+							aria-describedby="button-addon1" />
+						<!--Search button-->
+						<button
+							class=" flex items-center rounded-r bg-zinc-200  border border-solid border-neutral-300  px-6 py-2.5 text-xs font-medium uppercase leading-tight transition duration-150 ease-in-out hover:bg-primary-700 focus:bg-primary-700 focus:outline-none focus:ring-0 active:bg-primary-800"
+							type="button" id="button-addon1" data-te-ripple-init data-te-ripple-color="light">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+								class="h-5 w-5 text-gray-600">
+								<path fill-rule="evenodd"
+									d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+									clip-rule="evenodd" />
+							</svg>
+						</button>
+					</div>
+				</div>
+				<div id="buttons" class="ml-3 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+					<button class=" ml-5  rounded text-gray-800 flex"><svg class="text-gray-800"
+							xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+							<path fill="black"
+								d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4m0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4" />
+						</svg>Kirish</button>
+					<a href="favorites.html">
+						<button class=" ml-5  rounded text-gray-800 flex"><svg class="ml-3 text-gray-800"
+								xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+								<path fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round"
+									stroke-width="4"
+									d="M15 8C8.925 8 4 12.925 4 19c0 11 13 21 20 23.326C31 40 44 30 44 19c0-6.075-4.925-11-11-11c-3.72 0-7.01 1.847-9 4.674A10.987 10.987 0 0 0 15 8" />
+							</svg>Saralangan</button>
+					</a>
+					<button class="ml-5  rounded text-gray-800 flex"><svg class="ml-3 text-gray-800"
+							xmlns="http://www.w3.org/2000/svg" width="24" height="  24" viewBox="0 0 1024 1024">
+							<path fill="black"
+								d="M832 312H696v-16c0-101.6-82.4-184-184-184s-184 82.4-184 184v16H192c-17.7 0-32 14.3-32 32v536c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V344c0-17.7-14.3-32-32-32m-432-16c0-61.9 50.1-112 112-112s112 50.1 112 112v16H400zm392 544H232V384h96v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h224v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h96z" />
+						</svg>Savat</button>
+				</div>
+			</div>
+			<div class="mt-3">
+				<ul id="links" class="flex">
+					<img class="w-5 h-5" src="https://static.uzum.uz/nasiya/union.png" alt="">
+					<a class="ml-1" href="">Muddatli to`lov</a>
+					<img class="w-5 h-5 ml-6" src="https://static.uzum.uz/fast_categories/new_sale_2023.png" alt="">
+					<a class="ml-1" href="">Sirli to`plam</a>
+					<img class="w-5 h-5 ml-6" src="https://static.uzum.uz/fast_categories/winter_clothes.png" alt="">
+					<a class="ml-1" href="">Qishgi sotuv</a>
+					<img class="w-5 h-5 ml-6" src="https://static.uzum.uz/fast_categories/mens_gifts.png" alt="">
+					<a class="" href="">Erkaklar uchun</a>
+					<a class="ml-3 text-slate-400" href=""> Kiyimlar</a>
+					<a class="ml-3 text-slate-400" href="">Poyabzal</a>
+					<a class="ml-3 text-slate-400" href="">Aksessuarlar</a>
+					<a class="ml-3 text-slate-400" href="">Go`zalik va parvarish</a>
+					<a class="ml-3 text-slate-400" href="">Salomatlik</a>
+					<a class="ml-3 text-slate-400" href="">Uy-ro`zg`or buyumlari</a>
+					<a class="ml-3 text-slate-400" href="">Yana ></a>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<swiper-container class="mySwiper" pagination="true" navigation="true" space-between="30"
+				centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+				<swiper-slide>
+					<img src="https://images.uzum.uz/cmrkr2125ku8ad8j53g0/main_page_banner.jpg" alt="">
+				</swiper-slide>
+				<swiper-slide>
+					<img src="https://images.uzum.uz/cn2a28jifoubkc6r3ohg/main_page_banner.jpg" alt="">
+				</swiper-slide>
+				<swiper-slide>
+					<img src="https://images.uzum.uz/cmrksebifoubkc6ppdcg/main_page_banner.jpg" alt="">
+				</swiper-slide>
+				<swiper-slide>
+					<img src="https://images.uzum.uz/cmroc23ifoubkc6pqkng/main_page_banner.jpg" alt="">
+				</swiper-slide>
+				<swiper-slide>
+					<img src="https://images.uzum.uz/cmt4oihs99ouqbfsmscg/main_page_banner.jpg" alt="">
+				</swiper-slide>
+				<div class="autoplay-progress" slot="container-end">
+					<svg viewBox="0 0 48 48">
+						<circle cx="24" cy="24" r="20"></circle>
+					</svg>
+					<span></span>
+				</div>
+			</swiper-container>
+
+
+			<div class="container max-w-screen-xl mx-auto py-12">
+				<h1 class="text-3xl font-semibold mb-4">Tavsiyalar </h1>
+				<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+				</div>
+				<div class="pt-10">
+					<button class="bg-gray-200" id="btn-1">Yana ko'rsatish 20</button>
+				</div>
+				<div id="pic-container" class="pt-10">
+					<img src="https://images.uzum.uz/cn31ofps99ouqbftr6a0/main_page_banner.jpg" alt="">
+				</div>
+			</div>
+		</main>
+
+
+		<main class="p-4 md:ml-8 h-auto pt-20">
+			<footer class="bg-white ">
+				<div class="mx-auto w-full max-w-screen-xl">
+					<div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+						<div>
+							<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+							<ul class="text-gray-500 dark:text-gray-400 font-medium">
+								<li class="mb-4">
+									<a href="#" class=" hover:underline">About</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Careers</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Brand Center</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Blog</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center
+							</h2>
+							<ul class="text-gray-500 dark:text-gray-400 font-medium">
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Discord Server</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Twitter</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Facebook</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+							<ul class="text-gray-500 dark:text-gray-400 font-medium">
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Privacy Policy</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Licensing</a>
+								</li>
+								<li class="mb-4">
+									<a href="#" class="hover:underline">Terms &amp; Conditions</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Ilovani
+								yuklab olish</h2>
+							<a class="playstore-button" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon"
+									viewBox="0 0 512 512">
+									<path
+										d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+									</path>
+								</svg>
+								<span class="texts">
+									<span class="text-1">GET IT ON</span>
+									<span class="text-2">Google Play</span>
+								</span>
+							</a>
+							<div class="mt-2">
+								<a href="#" class="playstore-button">
+									<span class="icon">
+										<svg fill="currentcolor" viewBox="-52.01 0 560.035 560.035"
+											xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+											<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+											<g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+												stroke-linejoin="round"></g>
+											<g id="SVGRepo_iconCarrier">
+												<path
+													d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655">
+												</path>
+											</g>
+										</svg>
+									</span>
+									<span class="texts">
+										<span class="text-1">Download form</span>
+										<span class="text-2">App store</span>
+									</span>
+								</a>
+							</div>
+							<h2 class="mt-2 mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Uzum
+								ijtimoiy
+								tarmoqlarda
+							</h2>
+						</div>
+					</div>
+					<div class="px-4 py-6 bg-gray-100  md:flex md:items-center md:justify-between">
+						<span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a
+								href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+						</span>
+						<div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+							<a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+								<svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor" viewBox="0 0 8 19">
+									<path fill-rule="evenodd"
+										d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+										clip-rule="evenodd" />
+								</svg>
+								<span class="sr-only">Facebook page</span>
+							</a>
+							<a href="#" class="text-gray-400 hover:text-gray-900 ">
+								<svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor" viewBox="0 0 21 16">
+									<path
+										d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+								</svg>
+								<span class="sr-only">Discord community</span>
+							</a>
+							<a href="#" class="text-gray-400 hover:text-gray-900 ">
+								<svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor" viewBox="0 0 20 17">
+									<path fill-rule="evenodd"
+										d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+										clip-rule="evenodd" />
+								</svg>
+								<span class="sr-only">Twitter page</span>
+							</a>
+							<a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+								<svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd"
+										d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+										clip-rule="evenodd" />
+								</svg>
+								<span class="sr-only">GitHub account</span>
+							</a>
+							<a href="#" class="text-gray-400 hover:text-gray-900 ">
+								<svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd"
+										d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+										clip-rule="evenodd" />
+								</svg>
+								<span class="sr-only">Dribbble account</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			const progressCircle = document.querySelector(".autoplay-progress svg");
+			const progressContent = document.querySelector(".autoplay-progress span");
+
+			const swiperEl = document.querySelector("swiper-container");
+			swiperEl.addEventListener("autoplaytimeleft", (e) => {
+				const [swiper, time, progress] = e.detail;
+				progressCircle.style.setProperty("--progress", 1 - progress);
+				progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+			});
+		</script>
+		<script type="module" src="/main.js"></script>
+		<script type="module" src="js/script.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</body>
+
+	</html>
